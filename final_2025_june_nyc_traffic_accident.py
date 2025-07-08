@@ -513,4 +513,3 @@ for n_hidden in num_layers:
     print('Number of neurons per layer: ', n_neurons)
     history = model.fit(X_train_cv, y_train_cv, epochs=10,
                     validation_data=[X_valid, y_valid])
-
